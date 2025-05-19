@@ -1,0 +1,105 @@
+/* A custom css file for "Better UI" plugin */
+
+/* WARNING: Use carefully this might break app */
+
+/* A custom css file for "Better UI" plugin */
+
+/* WARNING: Use carefully this might break app */
+
+
+
+/* List File  */
+
+.open-file-list {
+
+	font-size: 5px;
+
+	height: 20px;
+
+}
+
+
+
+span#counting {
+
+	color: red;
+
+}
+
+
+
+/* Atur footer agar tingginya menyesuaikan konten terkecil */
+
+footer#quick-tools {
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: flex-start;
+
+	height: min-content; /* Tinggi otomatis sesuai konten */
+
+	border: 1px solid green;
+
+	overflow: hidden;
+
+}
+
+
+
+/* Setiap baris tombol (row1, row2) */
+
+.button-container {
+
+	display: flex;
+
+	align-items: flex-start; /* Tombol melekat di atas */
+
+	min-height: 20px; /* Minimal tinggi sesuai tombol */
+
+	height: min-content; /* Menyesuaikan tinggi sesuai konten */
+
+	/* border: 1px solid yellow; */
+
+	overflow-x: auto; /* Scroll horizontal jika diperlukan */
+
+}
+
+
+
+/* Setiap section dalam button-container */
+
+.button-container .section {
+
+	display: flex;
+
+	align-items: flex-start; /* Tombol tidak tengah vertikal */
+
+	min-height: 20px;
+
+	height: min-content;
+
+	border: 1px solid red;
+
+	gap: 2px; /* Jarak antar tombol */
+
+}
+
+
+
+.button-container .section > button {
+
+	height: 20px;
+
+	width: 4px;
+
+	font-size: 1px;
+
+	border: 1px solid blue;
+
+	padding: 0;
+
+	margin: 0;
+
+}
